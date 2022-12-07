@@ -1,0 +1,39 @@
+/*body {
+    background: rgb(231, 213, 186);
+    display: flex;
+  }*/
+  
+  .page {
+    justify-content: center;
+    padding: 50px 80px;
+    margin: 50px;
+    background: rgb(255, 255, 255);
+    box-shadow: 2px 4px 4px rgba(2, 0, 0, 0.6);
+    max-width: 800px;
+    min-width: 500px;
+  }
+  
+  #terms-and-conditions {
+    font-size: 14px;
+  }
+  #terms-and-conditions h1 {
+    font-size: 30px;
+  }
+  #terms-and-conditions ol {
+    counter-reset: item;
+  }
+  #terms-and-conditions li {
+    display: block;
+    margin: 20px 0;
+    position: relative;
+  }
+  #terms-and-conditions li:before {
+    position: absolute;
+    top: 0;
+    margin-left: -50px;
+    color: rgb(8, 0, 0);
+    content: counters(item, ".") "    ";
+    counter-increment: item;
+    font-weight: bold;
+    
+  }

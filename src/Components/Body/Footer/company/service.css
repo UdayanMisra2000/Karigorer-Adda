@@ -1,0 +1,47 @@
+.Container{
+    background-color: rgb(248, 161, 161);
+    border-radius: 1rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    }
+    .main{
+        background-size: 80%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .row{
+        padding-top: 0rem;
+    }
+    .services{
+        margin: 90px auto;
+        text-align: center;
+    }
+    h1{
+        font-family: sans-serif;
+        letter-spacing: 1px;
+    }
+    h1:after{
+        content: '';
+        background:rgb(237, 236, 241);
+        display: block;
+        width: 150px;
+        height: 3px;
+        margin: 10px auto;
+    }
+    .icon{
+        font-size: 40px;
+        margin: 20px auto;
+        padding: 20px;
+        height: 100px;
+        width: 100px;
+        border: 1px solid white;
+        border-radius: 50%;
+    }
+    .col-md-3:hover{
+        box-shadow: 5px 7px 9px -3px rgba(197, 6, 6, 0.5);
+        cursor: pointer;
+    }
+    .col-md-3 .p{
+        text-align: center;
+    }
