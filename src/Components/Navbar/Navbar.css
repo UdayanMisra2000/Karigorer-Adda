@@ -1,0 +1,21 @@
+.Navcss {
+  height: 70px;
+  background: linear-gradient(to right, rgb(31, 136, 54), rgba(255, 230, 4, 0.144));
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.Navbar {
+  display: flex;
+}
+
+.searchbar{
+  width: 600px;
+}
+
+@media (max-width: 1024px) {
+  .searchbar{
+    width: auto;
+  }
+}
