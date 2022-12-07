@@ -1,6 +1,7 @@
 <div align = 'center'>
 <h1> :arrow_forward: কারিগরের Adda :arrow_backward: </h1>
 <h3> Choice of Each Bengalees' </h3>
+<img src = "https://github.com/UdayanMisra2000/Karigorer-Adda/blob/main/src/Components/Navbar/logo.png">
 <img src= 'https://capsule-render.vercel.app/api?type=rect&color=gradient&height=2.5'/>
 </div>
 
