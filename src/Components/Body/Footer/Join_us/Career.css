@@ -1,0 +1,82 @@
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; 
+  }
+  .home .image{
+    flex:1 1 40rem;
+    padding-top: 4rem;
+    padding-left: 4rem;
+  }
+  .home .image img{
+    width:70%;
+    border-radius: 5rem;
+  }
+  .home .content{
+    flex:5 5 40rem;
+    
+  }
+  .home .content h2{
+    color:black;
+    padding-left: 25%;
+  }
+  .home .content p{
+    text-align: center;
+    font-size: 1rem;
+    color:var(--black);
+    padding-right: 20%;
+    padding-left: 5%;
+  }
+  .boxx{
+    background-color: rgb(226, 74, 74);
+    height: 80%;
+    width: 50%;
+    display: flex;
+  }
+  
+  .card {
+    margin: 40px;
+    display: flex;
+    align-items: center;
+    width: 25%;
+    height: 20%;
+    padding: 20px 15px;
+    background: linear-gradient(to right, rgb(248, 198, 198), rgb(255, 102, 102));
+    cursor: pointer;
+  }
+  .card-title {
+    text-align: center;
+  }
+  .card:hover {
+    box-shadow: 0 0 20px 20px rgba(53, 3, 63, 0.2);
+    transition: all 0.2s ease-out;
+  }
+  .box{
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 1rem;
+  }
+  .box .p{
+  text-align: center;
+  }
+  .box .h6{
+  text-align: center;
+  }
+  .box .boxbody
+  {
+  padding-bottom: .5rem;
+  background-color: rgb(159, 230, 243);
+  border-radius: 1.5rem;
+  box-shadow:5px 10px rgb(32, 128, 134);
+  }
+  @media screen and (max-width: 600px) {
+    .card {
+      font-size: 0.7rem;
+      width: 80%;
+    }
+    .card-title {
+      font-size: 0.8rem;
+    }
+  }

@@ -1,0 +1,134 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,200);
+
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+
+/* responsive */
+@media screen and (min-width: 40em) {
+  .col-group {
+    overflow: hidden;
+  }
+  .col-group > div {
+    float: left;
+    width: 30%;
+  }
+
+}
+section{
+  top:0px;right:0px;bottom:0px;left:0px;
+  height: 60%;
+/* background-color:lime; */
+  padding-top:40px;
+  border-bottom:1px dotted #D5D5D5;
+  padding-bottom:30px;
+  
+}
+
+
+.images img{
+  height: 250px;
+  width: 250px;
+  
+  }
+
+.wrap{
+  max-width:760px;
+  margin:auto;
+  padding-left:5px;
+  padding-right:5px;
+  
+}
+.wrap h2{
+    text-align: center;
+}
+#large_image{
+
+  background-color: rgb(250, 220, 157);
+}
+
+#hello{
+
+  padding-top:10px;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+  color: rgb(0, 0, 0);
+  border-bottom:0px dotted #D5D5D5;
+}
+#hello h1{
+    text-align: center;
+    font-weight:200;
+}
+#hello p{
+    text-align:center;
+    font-weight:400;
+}
+
+
+/*.white{
+  color:white;
+  
+}
+*/
+
+#skills{
+  clear:both;
+  min-height:500px;
+  
+}
+
+#skills ul{
+  /*background-color:green; */
+    text-align:left;
+    margin-left:-40px;
+}
+
+#skills li{
+  font-size:80px;
+  padding:20px;
+  list-style:none;
+  background-color:rgb(248, 161, 161);
+  color:#D3D3D3;
+  text-align:center;
+  
+  -webkit-transition: all 500ms ease;
+-moz-transition: all 500ms ease;
+-ms-transition: all 500ms ease;
+-o-transition: all 500ms ease;
+transition: all 500ms ease;
+
+  
+}
+
+#skills li:hover{
+  color:#94c2cf;
+  cursor:pointer;
+  
+  -webkit-transition: all 500ms ease;
+-moz-transition: all 500ms ease;
+-ms-transition: all 500ms ease;
+-o-transition: all 500ms ease;
+transition: all 500ms ease;
+
+  
+}
+
+.col-group > div {
+  padding: 0.5em 0.5em 0;
+}
+
+
+#about ul{
+  /* background-color:green; */
+    text-align:center;
+    margin-left:-40px;
+}
+
+
+#footer{
+  background-color:#cccccc ;
+  color:white;
+  text-align:center;
+}
